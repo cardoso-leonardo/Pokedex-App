@@ -99,6 +99,11 @@
 		2793D4F02A0EED1C002537C1 /* pokedex-app */ = {
 			isa = PBXGroup;
 			children = (
+				27FA174B2A0F069500B531A9 /* Resources */,
+				27FA174D2A0F06BC00B531A9 /* Model */,
+				27FA174C2A0F06B300B531A9 /* View */,
+				27FA174F2A0F06CF00B531A9 /* ViewModel */,
+				27FA17502A0F06D700B531A9 /* Controllers */,
 				2793D4F12A0EED1C002537C1 /* AppDelegate.swift */,
 				2793D4F32A0EED1C002537C1 /* SceneDelegate.swift */,
 				2793D4F52A0EED1C002537C1 /* ViewController.swift */,
@@ -125,6 +130,41 @@
 				2793D5142A0EED1D002537C1 /* pokedex_appUITestsLaunchTests.swift */,
 			);
 			path = "pokedex-appUITests";
+			sourceTree = "<group>";
+		};
+		27FA174B2A0F069500B531A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27FA174C2A0F06B300B531A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27FA174D2A0F06BC00B531A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27FA174F2A0F06CF00B531A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		27FA17502A0F06D700B531A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
