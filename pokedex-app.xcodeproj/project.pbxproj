@@ -163,19 +163,19 @@
 		27FA17502A0F06D700B531A9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				27FA17532A0F08F400B531A9 /* Nav */,
+				27FA17532A0F08F400B531A9 /* TabBar */,
 				2793D4F52A0EED1C002537C1 /* PokedexViewController.swift */,
 				27FA17512A0F08E500B531A9 /* CapturedViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		27FA17532A0F08F400B531A9 /* Nav */ = {
+		27FA17532A0F08F400B531A9 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
 				27FA17542A0F093400B531A9 /* TabBarController.swift */,
 			);
-			path = Nav;
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
