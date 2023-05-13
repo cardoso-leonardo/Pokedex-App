@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PokedexViewController.swift
 //  pokedex-app
 //
 //  Created by Leonardo Cardoso on 12/05/23.
@@ -11,7 +11,7 @@ class PokedexViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Pokédex"
     }
 
 
