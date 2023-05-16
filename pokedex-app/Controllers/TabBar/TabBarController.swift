@@ -28,8 +28,8 @@ final class TabBarController: UITabBarController {
             nav.navigationBar.prefersLargeTitles = true
         }
         
-        pokedexNav.tabBarItem = UITabBarItem(title: "Pokédex", image: UIImage(systemName: "person"), tag: 0)
-        capturedNav.tabBarItem = UITabBarItem(title: "Captured", image: UIImage(systemName: "film.stack"), tag: 1)
+        pokedexNav.tabBarItem = UITabBarItem(title: "Pokédex", image: UIImage(systemName: "list.number"), tag: 0)
+        capturedNav.tabBarItem = UITabBarItem(title: "Captured", image: UIImage(systemName: "list.star"), tag: 1)
         
         setViewControllers([pokedexNav, capturedNav], animated: true)
         
